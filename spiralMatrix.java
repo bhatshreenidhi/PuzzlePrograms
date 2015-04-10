@@ -1,6 +1,6 @@
-class Spiral
+class ZigZag
 {
-	public static void printSpiral()
+	public static void printZigZag()
 	{
 		int[][] matrix = {{1, 9, 21, 13},
                 {3, 7, 8,  -1},

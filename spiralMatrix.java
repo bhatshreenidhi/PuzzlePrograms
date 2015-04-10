@@ -1,7 +1,12 @@
 class Spiral
 {
-	public static void printSpiral(int[][] matrix)
+	public static void printSpiral()
 	{
+		int[][] matrix = {{1, 9, 21, 13},
+                {3, 7, 8,  -1},
+                {13, 5, 2,   1},
+                {5,-7, 3,  6}};
+
 		if(matrix.length==0)
 			return;
 
@@ -31,7 +36,7 @@ class Spiral
 			{
 				j--;
 
-				if(j==0)
+				if(j==-1)
 				{
 					j++;
 					i++;
